@@ -1,0 +1,123 @@
+[LOG] System::create                           : Header version = 2.01.11. Current version = 2.01.11.
+[LOG] Manager::init                            : maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata 0000000000000000.
+[LOG] SystemI::init                            : Initialize version=20111 (118066), maxchannels=256, flags=0x00020000
+[LOG] SystemI::setOutputInternal               : Setting output to 'FMOD WASAPI Output'
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEX): wFormatTag=0xFFFE, nChannels=6, nSamplesPerSec=48000, nAvgBytesPerSec=1152000, nBlockAlign=24, wBitsPerSample=32, cbSize=22.
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEXTENSIBLE): wValidBitsPerSample=32, dwChannelMask=0x0000003F, SubFormat=00000003-0000-0010-8000-00AA00389B71.
+[LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
+[LOG] DownMix::init                            : dspbuffersize: 1024  rate: 48000. output speaker mode: 6, input speaker mode 3
+[LOG] DownMix::init                            : done.
+[LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
+[LOG] AsyncManager::init                       : manager 00000182AA1FB728 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : done
+[LOG] PlaybackSystem::init                     : 
+[LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] PlaybackSystem::init                     : done
+[LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] Manager::init                            : done.
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] SoundI::release                          :  (00000182ADED02D8)
+[LOG] SoundI::release                          :     veh_lawnmower_0945_off_exh (0000018000ED8F28)
+[LOG] SoundI::release                          :  (00000182ADED0728)
+[LOG] SoundI::release                          :     veh_lawnmower_0879_on_exh (00000182838464B8)
+[LOG] SoundI::release                          :  (00000182ADED0898)
+[LOG] SoundI::release                          :     veh_lawnmower_1121_on_exh (0000018000ED98E8)
+[LOG] SoundI::release                          :  (00000182ADED0168)
+[LOG] SoundI::release                          :     veh_lawnmower_1406_off_exh (0000018000EDA928)
+[LOG] SoundI::release                          :  (00000182ADED5358)
+[LOG] SoundI::release                          :     veh_lawnmower_1648_off_exh (0000018283846318)
+[LOG] SoundI::release                          :  (00000182ADED5078)
+[LOG] SoundI::release                          :     veh_lawnmower_idle_exh (0000018000ED9748)
+[LOG] SoundI::release                          :  (00000182ADED51E8)
+[LOG] SoundI::release                          :     veh_lawnmower_1604_on_exh (0000018000ED9A88)
+[LOG] SoundI::release                          :  (00000182C9D14198)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_1 (00000182ADE9B2F8)
+[LOG] SoundI::release                          :  (00000182ADED12A8)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_2 (0000018000EDA448)
+[LOG] SoundI::release                          :  (00000182ADE5A868)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_3 (00000182ADE9E6F8)
+[LOG] SoundI::release                          :  (00000182ADED3808)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_4 (0000018000ED8088)
+[LOG] SoundI::release                          :  (00000182ADED2278)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_5 (0000018000ED95A8)
+[LOG] SoundI::release                          :  (00000182ADED05B8)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_6 (0000018000ED90C8)
+[LOG] SoundI::release                          :  (00000182ADED1E28)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_7 (0000018000ED9F68)
+[LOG] SoundI::release                          :  (00000182ADECFD18)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_8 (0000018000ED83C8)
+[LOG] SoundI::release                          :  (00000182ADED3C58)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_9 (0000018000ED9C28)
+[LOG] SoundI::release                          :  (00000182ADED4D98)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_10 (0000018000ED8D88)
+[LOG] SoundI::release                          :  (00000182ADED0E58)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_11 (0000018000ED7EE8)
+[LOG] SoundI::release                          :  (00000182ADED4388)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_12 (0000018000EDA2A8)
+[LOG] SoundI::release                          :  (0000018003F63948)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_13 (00000182ADE9B158)
+[LOG] SoundI::release                          :  (00000182ADED30D8)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_14 (0000018000EDA5E8)
+[LOG] SoundI::release                          :  (00000182ADED3DC8)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_15 (0000018000EDA788)
+[LOG] SoundI::release                          :  (00000182ADED3F38)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_16 (0000018000ED9DC8)
+[LOG] SoundI::release                          :  (00000182ADED19D8)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_17 (0000018000ED8BE8)
+[LOG] SoundI::release                          :  (00000182C9D13D48)
+[LOG] SoundI::release                          :     ambience_city_traffic_train_2 (00000182ADE9B7D8)
+[LOG] SoundI::release                          :  (0000018003F63D98)
+[LOG] SoundI::release                          :     ambience_city_traffic_train_1 (00000182ADE9A938)
+[LOG] SoundI::release                          :  (00000182ADED4218)
+[LOG] SoundI::release                          :     ambience_city_traffic_passing_1 (0000018000ED8228)
+[LOG] SoundI::release                          :  (00000182C9D14028)
+[LOG] SoundI::release                          :     ambience_city_traffic_passing_2 (00000182ADE9BB18)
+[LOG] SoundI::release                          :  (0000018003F637D8)
+[LOG] SoundI::release                          :     ambience_city_traffic_passing_3 (00000182ADE9AFB8)
+[LOG] SoundI::release                          :  (00000182ADECFFF8)
+[LOG] SoundI::release                          :     ambience_city_traffic_passing_4 (0000018000ED9268)
+[LOG] SoundI::release                          :  (00000182ADED4C28)
+[LOG] SoundI::release                          :     ambience_city_traffic_passing_5 (0000018000ED9408)
+[LOG] SoundI::release                          :  (00000182ADED1F98)
+[LOG] SoundI::release                          :     ambience_city_traffic_passing_6 (0000018000ED8708)
+[LOG] SoundI::release                          : ambience_city_traffic_pad (0000018003C64C88)
+[LOG] SoundI::release                          :     ambience_city_traffic_pad (00000182CA84FC38)
+[LOG] SoundI::release                          :     ambience_city_traffic_pad (0000018003C66C98)
+[LOG] SoundI::release                          : ambience_city_walla_pad (0000018003C68288)
+[LOG] SoundI::release                          :     ambience_city_walla_pad (00000182CA8505F8)
+[LOG] SoundI::release                          :     ambience_city_walla_pad (0000018003C6B6D8)
+[LOG] SoundI::release                          : Music (0000018003C6B1C8)
+[LOG] SoundI::release                          :     Music (00000182CA850458)
+[LOG] SoundI::release                          :     Music (0000018003C69D88)
+[LOG] SoundI::release                          :  (0000018003F63AB8)
+[LOG] SoundI::release                          :     ambience_city_traffic_passing_7 (00000182ADE9AC78)
+[LOG] SoundI::release                          :  (00000182C9D14308)
+[LOG] SoundI::release                          :     ambience_city_traffic_siren (0000018004F93AF8)
+[LOG] SoundI::release                          :  (0000018003F63C28)
+[LOG] SoundI::release                          :     ambience_city_traffic_horn_1 (00000182ADE9AE18)
+[LOG] SoundI::release                          :  (00000182ADED2838)
+[LOG] SoundI::release                          :     ambience_city_traffic_horn_2 (0000018000ED8568)
+[LOG] SoundI::release                          :  (00000182ADED4F08)
+[LOG] SoundI::release                          :     ambience_city_traffic_horn_3 (0000018000EDA108)
+[LOG] SoundI::release                          :  (00000182ADED4AB8)
+[LOG] SoundI::release                          :     ambience_city_traffic_horn_4 (0000018000ED88A8)
+[LOG] SoundI::release                          :  (00000182C9D13EB8)
+[LOG] SoundI::release                          :     ambience_city_traffic_horn_5 (00000182ADE9B498)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] ProfileClient::markForDead               : Closing client connection
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] FMOD_OS_Net_Read                         : Interrupted.[LOG] Thread::callback                         : FMOD profiler thread (send) finished.
+[LOG] ProfileClient::recvThreadLoopFunction    : Socket disconnected
+[LOG] Thread::callback                         : FMOD profiler thread (recv) finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
